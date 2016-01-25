@@ -3,8 +3,8 @@
 """
 """ Put Generic Configurations here """
 class Config(object):
-    DEBUG = False
-    TESTING = False
+    DEBUG = True
+    TESTING = True
     SECRET_KEY = 'someSecretKey'
 
 """ Put Development Specific Configurations here """
